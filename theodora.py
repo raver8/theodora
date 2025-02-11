@@ -10,7 +10,7 @@ st.title('COMING SOON: THEODORA, THE AI-POWERED RISK MANAGEMENT PLATFORM')
 
 
 # Specify the image file
-image_path = 'THEODORA_SYM.jpg'
+image_path = '/THEODORA_SYM.jpg'
 
 # Open and display the image file
 image = Image.open(image_path)
