@@ -1,12 +1,12 @@
 
 import streamlit as st
- 
+import os
+from PIL import Image
+
 # Set the title of the Streamlit app
 st.title('COMING SOON: THEODORA, THE AI-POWERED RISK MANAGEMENT PLATFORM')
 
-import streamlit as st
-import os
-from PIL import Image
+
 
 
 # Specify the image file
