@@ -13,6 +13,6 @@ image_path = 'THEODORA_SYM.jpg'
 if os.path.exists(image_path):
     # Open and display the image file
     image = Image.open(image_path)
-    
+    st.image(image, caption='Specified Image', use_column_width=True)    
 else:
     st.error('Error: Image file not found.')
