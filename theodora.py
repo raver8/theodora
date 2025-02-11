@@ -1,13 +1,13 @@
 
 import streamlit as st
  
-st.title('My First Streamlit App')
+# Set the title of the Streamlit app
+st.title('COMING SOON: THEODORA, THE AI-POWERED RISK MANAGEMENT PLATFORM')
+
 import streamlit as st
 import os
 from PIL import Image
 
-# Set the title of the Streamlit app
-st.title("COMING SOON: THEODORA, THE AI-POWERED RISK MANAGEMENT PLATFORM")
 
 # Specify the image file
 image_path = 'THEODORA_SYM.jpg'
