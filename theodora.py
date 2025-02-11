@@ -7,16 +7,11 @@ import os
 from PIL import Image
 
 # Set the title of the Streamlit app
-st.title("Image Gallery")
+st.title("COMING SOON: THEODORA, THE AI-POWERED RISK MANAGEMENT PLATFORM")
 
-# Specify the folder containing the images
-image_folder = 'images/'
+# Specify the image file
+image_path = 'THEODORA_SYM.jpg'
 
-# Get a list of all image files in the folder
-image_files = [f for f in os.listdir(image_folder) if os.path.isfile(os.path.join(image_folder, f))]
-
-# Display the images
-for image_file in image_files:
-    # Open and display the image
-    image = Image.open(os.path.join(image_folder, image_file))
-    st.image(image, caption=image_file, use_column_width=True)
+# Open and display the image file
+image = Image.open(image_path)
+st.image(image, caption='Specified Image', use_column_width=True)
